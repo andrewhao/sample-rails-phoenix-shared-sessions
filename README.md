@@ -1,13 +1,4 @@
----
-layout: post
-title: "Migrating to Phoenix with Rails session sharing"
-date: 2016-06-24 13:31:06 -0700
-comments: true
-categories:
-- Elixir
-- Phoenix
-- Rails
----
+# Migrating to Phoenix with Rails session sharing
 
 You've heard the buzz about Phoenix and Elixir - about its fantastic concurrency features and its great developer tooling and fast-growing ecosystem. That's great! You're already plotting to build your company's next Big Thing on this new technology platform.
 
@@ -167,4 +158,4 @@ Even though this scheme may work in the short run, coupling our apps at this lev
 
 ### Conclusion
 
-That's it! I hope I've illustrated a quick and easy way to get a working Phoenix app sharing sessions with Rails app(s), should you decide to prototype one in your existing system. I've also pushed up a [sample app if you want to cross-reference the code](). Good luck!
+That's it! I hope I've illustrated a quick and easy way to get a working Phoenix app sharing sessions with Rails app(s), should you decide to prototype one in your existing system. I've also pushed up a [sample app if you want to cross-reference the code](https://github.com/andrewhao/sample-rails-phoenix-shared-sessions/). Good luck!

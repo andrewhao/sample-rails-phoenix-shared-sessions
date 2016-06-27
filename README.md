@@ -1,4 +1,6 @@
-# Migrating to Phoenix with Rails session sharing
+# Rails, meet Phoenix
+
+### Migrating to Phoenix with Rails session sharing
 
 You've heard the buzz about Phoenix and Elixir - about its fantastic concurrency features and its great developer tooling and fast-growing ecosystem. That's great! You're already plotting to build your company's next Big Thing on this new technology platform.
 

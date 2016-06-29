@@ -52,6 +52,7 @@ defmodule PhoenixApp.Web do
       import PhoenixApp.Router.Helpers
       import PhoenixApp.ErrorHelpers
       import PhoenixApp.Gettext
+      import PhoenixApp.Session
     end
   end
 

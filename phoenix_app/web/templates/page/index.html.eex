@@ -1,6 +1,8 @@
 <div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}", name: "Phoenix!" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+  <%= if logged_in?(@conn) do %>
+      <img src="<%= current_user(@conn)["picture"]["medium"] %>" />
+    <p><strong>You are logged in, <%= current_user(@conn)["name"]["first"]%> <%= current_user(@conn)["name"]["last"] %>!</strong></p>
+  <% end %>
 </div>
 
 <div class="row marketing">
